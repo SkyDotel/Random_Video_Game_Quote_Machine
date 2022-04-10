@@ -1,0 +1,93 @@
+body{
+  background: url(http://www.trbimg.com/img-54e21e17/turbine/dp-popcorn--video-game-art-0216) no-repeat;
+  background-size: 100%;
+}
+
+#title { color: white; 
+  font-family: 'Raleway',sans-serif; 
+  font-size: 40px; 
+  font-weight: 800; 
+  line-height: 72px; 
+  margin: 5px 0 15px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+#subTitle { color: white; 
+  font-family: 'Raleway',sans-serif; 
+  font-size: 25px; 
+  font-weight: 800; 
+  line-height: 36px; 
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+
+div {
+  width: 500px;
+  margin: 0; 
+}
+
+
+#btn{
+  margin-bottom:2%;
+}
+
+#quoteText{
+  min-height:70px;
+ 
+}
+
+#authorText{
+  min-height:20px;
+
+}
+
+
+.quote-card p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+}
+
+
+.quote-card.purple-card {
+  background: #9932CC;
+  color: white;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+  border-radius: 10px;
+  width:500px
+}
+
+#twitter{
+  margin-top: 3px;
+}
+
+#TM{
+  color: white;
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+}
+
+@viewport{
+  zoom:1.0;
+  width:extend-to-zoon;
+}
+
+@-ms-viewport{
+  width:extend-to-zoom;
+  zoom:1.0;
+}
